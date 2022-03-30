@@ -23,7 +23,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             {
                 case ConsoleKey.W:
                     {
-                        Console.SetCursorPosition(6, 5);
+                        Console.SetCursorPosition(5, 4);
                         break;
                     }
                 case ConsoleKey.A:
@@ -42,6 +42,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                         break;
                     }
             }
+            
             Console.ReadLine();
         }
     }
